@@ -1,9 +1,9 @@
-# TickTask: Routine Manager App
-*TickTask is a beautifully designed, easy-to-use, effective to-do list, and task management tool for your Android device that helps you to create schedules, manage time and stay focused, It's free for everyone.*
+# TaskManager: Routine Manager App
+*TaskManager is a beautifully designed, easy-to-use, effective to-do list, and task management tool for your Android device that helps you to create schedules, manage time and stay focused, It's free for everyone.*
 
 #### Kotlin, Room Database and Repository, MVVMMaterial Components, 
 
-<a href='https://play.google.com/store/apps/details?id=com.masai.myjournalapp'>
+<a href='https://play.google.com/store/apps/details?id=com.app.deying.taskmanager'>
             <img width="200" height="100%" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/>
 </a>
  

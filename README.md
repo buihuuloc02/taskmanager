@@ -39,7 +39,4 @@ Planned Features
 * 💥Overview customization
 * 🎨Themes
 
-Known Issues
----
-To report issues, please email me at bhavesh.patil0325@gmail.com.
 

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.app.deying.taskmanager">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" tools:node="remove"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TickTask">
+        <activity
+            android:name=".ui.view.EditTaskActivit"
+            android:exported="true" />
+        <activity
+            android:name=".ui.view.AddTaskActivity"
+            android:exported="true"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ui.view.NotificationMessage"
+            android:exported="true" />
+        <activity
+            android:name=".ui.loginScreen.RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.view.WelcomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.loginScreen.LoginActivity"
+            android:exported="true" />
+        <activity android:name=".ui.view.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <receiver android:name=".notification.NotificationBroadcast"
+            android:exported="true"/>
+    </application>
+
+</manifest>
